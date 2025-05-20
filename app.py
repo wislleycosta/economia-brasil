@@ -1,5 +1,5 @@
 import streamlit as st
-from scripts.coleta_ipca import baixar_ipca
+from scripts.ipca import baixar_ipca
 import altair as alt
 
 st.set_page_config(page_title="Indicadores Econômicos do Brasil", layout="centered")
